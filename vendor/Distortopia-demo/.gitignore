@@ -1,0 +1,41 @@
+# Raw genome & large data files
+raw_data/
+*.fa
+*.fna
+*.fasta
+*.fa.gz
+*.fq
+*.fq.gz
+*.fastq
+*.fastq.gz
+*.bam
+*.sam
+*.bai
+*.cram
+*.vcf
+*.vcf.gz
+*.bcf
+*.idx
+*.tsv
+*.csv
+
+# Intermediate analysis outputs
+*.paf
+*.pileup
+*.tmp
+*.tmp.*
+*.tbi
+
+# Results from pipeline (don’t track unless summarized)
+*_gametes_longreads.fq.gz
+*_gametes.bam
+*_gametes.vcf
+*_crossovers.tsv
+*__pycache__/
+
+# Large archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
