@@ -1,0 +1,24 @@
+{
+    "Yield": 984251155,
+    "Q7 bases": "99.88%",
+    "Longest_read": 26213,
+    "Num_of_reads": 293966,
+    "Length_stats": {
+        "gamma_params": [
+            4.518191980746011,
+            741.044263502814
+        ],
+        "Mean_read_length": 3348.1802487362484,
+        "N50_read_length": 3625.0
+    },
+    "GC_stats": {
+        "Mean_GC_content": 0.35035017132759094,
+        "SD_GC_content": 0.06024673953652382
+    },
+    "Coverage_stats": {
+        "Estimated non-sense read fraction": 0.166,
+        "Mean_coverage": 5.208258038590018,
+        "SD_coverage": 2.9464186541887942,
+        "Estimated crude Xome size": "157608447 (e = 16.6%)"
+    }
+}

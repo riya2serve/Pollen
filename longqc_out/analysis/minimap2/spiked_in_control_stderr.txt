@@ -1,0 +1,26 @@
+Warning: Apply default I=4G instead. 
+Warning: -s shouldn't be zero. Apply default s=100000 instead.
+Warning: Apply default g=10000 instead.
+Warning: Apply default n=3 instead.
+Warning: Apply default m=40 instead.
+Warning: Apply default p=m instead.
+Warning: Apply default q=m instead.
+Warning: Apply default s=25 instead.
+Warning: Apply default a=2000 instead.
+Warning: Apply default r=0.4 instead.
+=== Parameters are listed below === 
+Inputs are target: /Users/riyarampalli/Desktop/Pollen_Data/LongQC/refs/Sequel_control_reference.fasta, query: longqc_out/analysis/subsample.fastq
+kmer 15, window 10, index loading size 4000000000
+min-score 40, min-score-med 40, min-score-good 40, max-gap 10000, min-cnt 3
+Homo-polymer compression: 1, Filtering: 1, minimizer-count: 24842
+max-overhang 2000, min-overlaplen 0, min-overapratio 0.40
+num of threads 4, num of query seqs 100000
+===
+[M::main::0.184*1.09] loaded 5000 sequence(s). Total m_cnt: 2168059 (Peak RSS: 0.004 GB) 
+[M::mm_idx_gen::0.185*1.09] collected minimizers
+[M::mm_idx_gen::0.185*1.09] sorted minimizers
+[M::mm_mapopt_update::0.185*1.09] mid_occ = 3
+[M::main::0.185*1.09] loaded/built the index for 1 target sequence(s)
+[M::worker_pipeline::0.255*1.59] mapped 5000 sequences. (Peak RSS: 0.024 GB) 
+
+[M::main] Real time: 0.565 sec; CPU: 0.717 sec

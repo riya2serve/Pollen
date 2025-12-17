@@ -1,0 +1,25 @@
+Homopolymer compression is not applied.
+Warning: Apply default c=3 instead. 
+Warning: -s shouldn't be zero. Apply default s=100000 instead.
+Warning: Apply default g=10000 instead.
+Warning: Apply default n=3 instead.
+Warning: Apply default m=40 instead.
+Warning: Apply default s=25 instead.
+Warning: Apply default a=2000 instead.
+Warning: Apply default r=0.4 instead.
+=== Parameters are listed below === 
+Inputs are target: fastq/subsamp1.fastq, query: longqc_out/analysis/subsample.fastq
+kmer 15, window 5, index loading size 4000000000
+min-score 40, min-score-med 80, min-score-good 160, max-gap 10000, min-cnt 3
+Homo-polymer compression: 0, Filtering: 0, minimizer-count: 24842
+max-overhang 2000, min-overlaplen 0, min-overapratio 0.40
+num of threads 4, num of query seqs 100000
+===
+[M::main::0.225*1.04] loaded 5000 sequence(s). Total m_cnt: 5775787 (Peak RSS: 0.014 GB) 
+[M::mm_idx_gen::13.206*1.64] collected minimizers
+[M::mm_idx_gen::20.910*2.12] sorted minimizers
+[M::mm_mapopt_update::22.200*2.05] mid_occ = 958
+[M::main::22.200*2.05] loaded/built the index for 293966 target sequence(s)
+[M::worker_pipeline::35.736*2.78] mapped 5000 sequences. (Peak RSS: 6.821 GB) 
+
+[M::main] Real time: 36.622 sec; CPU: 100.150 sec

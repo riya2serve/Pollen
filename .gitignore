@@ -1,0 +1,7 @@
+# data + outputs
+raw_data/
+fastq/
+
+# common junk
+.DS_Store
+*.log

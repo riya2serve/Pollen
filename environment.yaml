@@ -1,0 +1,13 @@
+# conda env create --name pollen --file environment.yaml
+name: pollen
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas>=2.0
+  - typing-extensions=4.12.2
+  - minimap2=2.28
+  - samtools=1.20
+  - sambamba=1.0.1
