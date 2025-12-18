@@ -34,7 +34,11 @@ def run_plot(
         sub = sub.loc[sub.end < sub.end.max() - read_length]
 
         # select the true recomb positions
-        cxs = sub.read.apply(lambda x: int(x.split("cx=")[1].split(":")[0]))
+        # For real reads, infer "has crossover" from crossover columns (not read name)
+        left = sub["crossover_left"].astype(str)
+        right = sub["crossover_right"].astype(str)
+
+        cxs = ((left != "NA") & (left != "nan") & (left != "None") | (right != "NA") & (right != "nan") & (right != "None")).astype(int)
         mags, bins = np.histogram(cxs, bins=bins)
 
         # divide by total number of reads

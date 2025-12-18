@@ -1,6 +1,10 @@
 # data + outputs
 raw_data/
 fastq/
+references/
+inferring/
+mapping/
+plotting/
 
 # common junk
 .DS_Store
