@@ -9,3 +9,18 @@ plotting/
 # common junk
 .DS_Store
 *.log
+
+longqc_out/
+longqc_out_cleaned/
+simulated/
+tmp.*
+*.txt
+*.png
+*.html
+*.json
+*.log
+*.bam
+*.bai
+*.vcf.gz
+*.tbi
+*.pdf
