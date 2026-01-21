@@ -53,7 +53,7 @@ def run_plot(tsv: Path, outdir: Path, prefix: str) -> None:
 
     # --- user-tunable parameters (keep these simple) ---
     bins_per_chr = 100
-    nreads_total = 1e7   # used only for scaling to "per read"; keep consistent with your pipeline
+    nreads_total = 1e7   # used only for scaling to "per read"; keep consistent with pipeline
     read_length = 100_000  # mask first/last read_length bp of each chromosome
 
     # --- load data ---
@@ -95,7 +95,7 @@ def run_plot(tsv: Path, outdir: Path, prefix: str) -> None:
         if sub.empty:
             continue
 
-        # mask ends (your original intent)
+        # mask ends of chromosomes 
         sub = sub.loc[sub["start"] > read_length]
         if sub.empty:
             continue
